@@ -56,10 +56,10 @@ Feature: Autenticación de usuario
   ```
   proyecto/
   ├── features/
+  │   ├── environment.py  # hooks opcionales
   │   ├── login.feature
   │   └── steps/
   │       └── login_steps.py
-  ├── environment.py  # hooks opcionales
   └── requirements.txt
   ```
 - Instalar Behave:
